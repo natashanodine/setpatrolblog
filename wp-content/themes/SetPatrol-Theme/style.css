@@ -1,0 +1,348 @@
+@font-face {
+  font-family: pantonExtraBold;
+  src: url(http://ecuadorparapente.com/setpatrolblog/wp-content/themes/SetPatrol-Theme/fonts/PantonExtraBold.otf);
+}
+body {
+  overflow-x: hidden;
+}
+.navbar{
+	background: #050752;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.notactive{
+	border-top: 13px solid #00001A;
+}
+
+.notactive a{
+	margin-top: -13px;
+}
+
+.notactive:hover {
+	background: #00001A;
+}
+
+.navbar-expand-lg .navbar-collapse {
+	margin: -7px;
+}
+
+.navbar-nav > li {
+	margin-left: 0px;
+	padding: 18px 0px;
+}
+
+.active a{
+    background-image: linear-gradient(#00C9C0, #00C9C0);
+  background-position: bottom center; /*Adjust the background-position to move the line*/
+  background-size: 10% 5px; /*Adjust the background size to control length and height*/
+  background-repeat: no-repeat;
+  padding-bottom: 4px; /* this can also control the position */
+}
+
+.active a:hover{
+    background-image: linear-gradient(#00C9C0, #00C9C0);
+  background-position: bottom center; /*Adjust the background-position to move the line*/
+  background-size: 100% 5px; /*Adjust the background size to control length and height*/
+  background-repeat: no-repeat;
+  padding-bottom: 4px; /* this can also control the position */
+}
+
+.active:hover{
+    background: #050752;
+}
+
+.aListing a{
+	color: orange;
+}
+
+.headerImageIndex img{
+	object-fit: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.headerImageIndex h1{
+	position: absolute;
+	bottom: -20px;
+	left: 250px;
+	font-family: 'pantonExtraBold';
+	font-weight: bold;
+	color: #fff;
+	font-size: 60px;
+}
+
+.metaOuter{
+ 	margin-top: 80px;
+}
+
+.indexMeta{
+	width: 88%;
+	background: #050752;
+	padding-top: 5px;
+	padding-bottom: 5px;
+ 	position: absolute;
+ 	bottom: 0px;
+}
+
+.indexMeta p, em{
+	color: #fff;	
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 15px;
+ 	padding-bottom: 0;
+ 	margin-bottom: 0;
+ 	font-weight: 100;
+}
+
+.container-fluid{
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.container{
+	text-align: justify;
+}
+
+.entryRow{
+	margin: 0 20px 0 20px;
+	padding-top: 50px;
+}
+
+.entryRow a{
+	color: #000;
+}
+
+.entryRow a:hover {
+	text-decoration: none;
+}
+
+.entryRow img{
+	object-fit: cover;
+	width: 100%;
+	height: 200px;
+}
+
+.entryPost{
+	height: 100%;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	background: rgba(255,255,255,0.9);	
+ 	text-align: left;
+}
+
+.entryPost:hover { 
+	transform: scale(1.1);
+	box-shadow: 0px 10px 8px #888888;
+}
+
+.entryPost:hover h2{ 
+	color: #00C9C0;
+}
+
+.entryPost:hover .indexMeta{ 
+	width: 100%;
+}
+
+.entryPost p{
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 14px;
+ 	color: #414042;
+ 	line-height: 1;
+}
+
+.entryPost h2{
+ 	padding: 10px 10px 0 10px;
+ 	text-align: justify;
+ 	font-weight: bold;
+ 	font-family: 'MontserratBold', sans-serif;
+ 	font-size: 24px;
+ 	text-transform: uppercase;
+	color: #050752;
+}
+
+.postCol{
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.singlePost {
+	margin-top: 100px;
+	/*background: rgba(255,255,255,0.95); */
+}
+
+.singlePostHeader h2{
+	/*margin: 20px;*/
+	 padding-top: 10px;
+ 	font-weight: bold;
+ 	font-family: 'MontserratBold', sans-serif;
+ 	font-size: 60px;
+ 	text-transform: uppercase;
+	color: #050752;
+	margin-bottom: 50px;
+	width: 60%;
+}
+
+.singlePostHeaderMeta{
+	background: #050752;
+	width: 100%;
+	margin-left: 1px;
+	margin-bottom: 50px;
+}
+.singlePostHeaderMeta p{
+	color: #fff;
+	text-align: left;
+	display: inline;
+	font-size: 20px;
+}
+
+.singlePostHeaderMetaParagraph {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.singlePostHeaderMetaRightP{
+	text-align: right;
+}
+
+.singlePostContent p {
+	 font-size: 30px;
+}
+
+.singlePost img {
+	display:block;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+}
+
+.singleMeta {
+	margin-top: 50px;
+	margin-right: 1px;
+}
+.singleMeta a{
+	color: #000;
+}
+
+.singleMeta a:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.headerImage img{
+	object-fit: cover;
+	width: 100%;
+	height: 450px;
+}
+
+.commentFormRow{
+	margin-top: 50px;
+	padding-bottom: 20px;
+	width:80%;
+}
+
+.commentFormRow h2{
+	padding: 10px;
+	color: #fff;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 30px;
+	background: #050752;
+}
+
+#commentform label{
+	margin-top: 20px;	
+	color: #050752;
+}
+
+#commentform input, textarea{
+	width: 100%;
+	border: 2px solid #050752;
+}
+
+.submitForm input{
+	max-width: 150px;
+	background: #050752;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	padding: 7px;
+}
+
+@media only screen and (max-width: 1025px){
+
+	.entryRow{
+		margin: 0 ;
+		padding: 50px 0 0 0;
+	}
+	.indexMeta{
+		width: 90%;
+	}
+	.entryPost{
+		margin-right: 0px;
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.headerImageIndex h1{
+		left: 150px;
+	}
+
+	.singlePostHeader h2{
+ 		font-size: 50px;
+	}
+	.commentFormRow{
+		width:90%;
+	} 
+}
+
+@media only screen and (max-width: 800px){
+	.navbar-nav > li {
+		text-align: center;
+	}
+
+	.singlePostHeader h2{
+ 		font-size: 35px;
+ 		width: 100%;
+	}
+
+	.commentFormRow{
+		width: 100%;
+	}
+
+	.singlePostContent p {
+		 font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+    .headerImage img{
+		object-fit: cover;
+		width: 100%;
+		height: 200px;
+	}
+	.headerImageIndex h1{
+		left: 50px;
+	}
+	.headerImageIndex h1{
+	bottom: -30px;
+	}
+	.container-fluid{
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.container{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.singlePost img {
+		width: 100%;
+		height: 100%;
+	}
+}
